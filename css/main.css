@@ -1,87 +1,79 @@
 * {
     color: #ab688f;
 }
-
 body {
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
-
 button {
-	transition: 0.5s ease;
+    transition: 0.5s ease;
 }
-
 button:hover {
-	background-color: #ab688f;
-	transform: scale(1.3);
+    background-color: #ab688f;
+    transform: scale(1.3);
 }
-
-.bg-img {
-	background-image: url("../images/shipping.jpeg");
-	background-size: cover;
-	background-position: 50% 50%;
+.container-fluid .row i {
+    font-size: 8rem;
 }
-
+.container-fluid {
+    padding: 0;
+}
 .bg-blue {
-	background-color: #ecf2f3;
+    background-color: #ecf2f3;
 }
-
+.bg-img {
+    background-image: url("../images/shipping.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
 .h-100vh {
-	height: 100vh;
+    height: 100vh;
 }
-
-#introCircle {
-	background-color: #a10065;
-	height: 70vh;
-	width: 70vh;
-	border-radius: 50%;
-	position: absolute;
-	z-index: 5;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	mix-blend-mode: color;
-}
-
-/*Provided that the parent is position:relative*/
+/*Provided that the parent is positioned relatively*/
 .vertical-center {
-	position: absolute;
-	top: 50%;
-	/*what was this again? -- it keeps it centered responsively**/
-	transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
 .navbar-light .navbar-brand {
-	color: #a10065;
-	background-color: white;
-	border-radius: 15%;
+    color: #a10065;
+    background-color: white;
+    border-radius: 15%;
 }
-
+.bottom-20 {
+    bottom: 20vh;
+}
+.text-white {
+    color: white;
+}
 #logoImg {
-	background-color: #ffe4cc;
-	border-radius: 50%;
-	animation: shift 4s infinite;
+    background-color: #ffe4cc;
+    border-radius: 50%;
+    animation: shift 4s infinite;
 }
-
-
 #boats {
-	max-width: 100vw;
+    max-width: 100vw;
 }
-
 #BH {
-	position: relative;
-	bottom: 25%;
-	right: 50%;
-	mix-blend-mode: color-burn;
+    position: relative;
+    bottom: 25%;
+    right: 50%;
+    mix-blend-mode: color-burn;
 }
-
+#introCircle {
+    background-color: #a10065;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    mix-blend-mode: color;
+}
 #nav-container {
-	transition: 0.5s ease;
+    transition: 0.5s ease;
 }
-
-
-
-
-
 @keyframes shift {
     10% {
         transform: rotate(10deg);
